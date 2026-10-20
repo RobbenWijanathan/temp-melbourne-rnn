@@ -36,3 +36,15 @@ Results and conclusions are generated from actual runs inside the notebook.
 The exact downloaded dataset, random seeds, library versions, and chosen
 configuration are saved for reproducibility. Scores can vary slightly across
 platforms. Do not use test results to make further tuning decisions.
+
+## LSTM notebook
+
+Open `lstm.ipynb` in Colab and run all. Uses Keras `LSTM` with the same splits,
+feature comparisons, and validation-based tuning. Results are saved to
+`MyDrive/RNN_Exercise/output/lstm/` (locally: `output/lstm/`).
+
+## GRU notebook
+
+Open `gru.ipynb` in Colab and run all. Uses Keras `GRU` with the same splits,
+feature comparisons, and validation-based tuning. Results are saved to
+`MyDrive/RNN_Exercise/output/gru/` (locally: `output/gru/`).
